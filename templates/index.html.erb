@@ -4,6 +4,7 @@
     <h2>ipaddress: <%= node["ipaddress"] %></h2>
     <h2>hostname: <%= node["hostname"] %></h2>
     <h2>default gw: <%= node["network"]["default_gateway"] %></h2>
+    <h2>public IP: <%= node["ec2"]["public_ipv4"] %></h2>
     <img src="cubs_logo.jpg">
 </body>
 </html>
